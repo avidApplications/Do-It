@@ -14,6 +14,7 @@
 		ACE5EB011E7535700026539A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACE5EB001E7535700026539A /* Assets.xcassets */; };
 		ACE5EB041E7535700026539A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACE5EB021E7535700026539A /* LaunchScreen.storyboard */; };
 		ACE5EB0C1E7539340026539A /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE5EB0B1E7539340026539A /* Task.swift */; };
+		ACE5EB0E1E77626E0026539A /* CreateTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE5EB0D1E77626E0026539A /* CreateTaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		ACE5EB031E7535700026539A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACE5EB051E7535700026539A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACE5EB0B1E7539340026539A /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		ACE5EB0D1E77626E0026539A /* CreateTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateTaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				ACE5EAF81E7535700026539A /* ViewController.swift */,
 				ACE5EB0B1E7539340026539A /* Task.swift */,
 				ACE5EAFA1E7535700026539A /* Main.storyboard */,
+				ACE5EB0D1E77626E0026539A /* CreateTaskViewController.swift */,
 				ACE5EB001E7535700026539A /* Assets.xcassets */,
 				ACE5EB021E7535700026539A /* LaunchScreen.storyboard */,
 				ACE5EB051E7535700026539A /* Info.plist */,
@@ -146,6 +149,7 @@
 				ACE5EAFF1E7535700026539A /* Do_It.xcdatamodeld in Sources */,
 				ACE5EAF91E7535700026539A /* ViewController.swift in Sources */,
 				ACE5EAF71E7535700026539A /* AppDelegate.swift in Sources */,
+				ACE5EB0E1E77626E0026539A /* CreateTaskViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
