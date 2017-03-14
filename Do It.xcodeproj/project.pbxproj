@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		ACE5EAF71E7535700026539A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE5EAF61E7535700026539A /* AppDelegate.swift */; };
-		ACE5EAF91E7535700026539A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE5EAF81E7535700026539A /* ViewController.swift */; };
+		ACE5EAF91E7535700026539A /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE5EAF81E7535700026539A /* TasksViewController.swift */; };
 		ACE5EAFC1E7535700026539A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACE5EAFA1E7535700026539A /* Main.storyboard */; };
 		ACE5EAFF1E7535700026539A /* Do_It.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ACE5EAFD1E7535700026539A /* Do_It.xcdatamodeld */; };
 		ACE5EB011E7535700026539A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACE5EB001E7535700026539A /* Assets.xcassets */; };
@@ -20,7 +20,7 @@
 /* Begin PBXFileReference section */
 		ACE5EAF31E7535700026539A /* Do It.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Do It.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACE5EAF61E7535700026539A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ACE5EAF81E7535700026539A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ACE5EAF81E7535700026539A /* TasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
 		ACE5EAFB1E7535700026539A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ACE5EAFE1E7535700026539A /* Do_It.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Do_It.xcdatamodel; sourceTree = "<group>"; };
 		ACE5EB001E7535700026539A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -61,10 +61,10 @@
 			isa = PBXGroup;
 			children = (
 				ACE5EAF61E7535700026539A /* AppDelegate.swift */,
-				ACE5EAF81E7535700026539A /* ViewController.swift */,
+				ACE5EAF81E7535700026539A /* TasksViewController.swift */,
+				ACE5EB0D1E77626E0026539A /* CreateTaskViewController.swift */,
 				ACE5EB0B1E7539340026539A /* Task.swift */,
 				ACE5EAFA1E7535700026539A /* Main.storyboard */,
-				ACE5EB0D1E77626E0026539A /* CreateTaskViewController.swift */,
 				ACE5EB001E7535700026539A /* Assets.xcassets */,
 				ACE5EB021E7535700026539A /* LaunchScreen.storyboard */,
 				ACE5EB051E7535700026539A /* Info.plist */,
@@ -147,7 +147,7 @@
 			files = (
 				ACE5EB0C1E7539340026539A /* Task.swift in Sources */,
 				ACE5EAFF1E7535700026539A /* Do_It.xcdatamodeld in Sources */,
-				ACE5EAF91E7535700026539A /* ViewController.swift in Sources */,
+				ACE5EAF91E7535700026539A /* TasksViewController.swift in Sources */,
 				ACE5EAF71E7535700026539A /* AppDelegate.swift in Sources */,
 				ACE5EB0E1E77626E0026539A /* CreateTaskViewController.swift in Sources */,
 			);
